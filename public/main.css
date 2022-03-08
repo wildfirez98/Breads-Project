@@ -1,10 +1,14 @@
 body {
     background-color: floralwhite;
-  }
+}
   
-  img {
+img {
     width: 50%;
     display: block;
     margin: auto;
-  }
+}
+
+.defaultHeader {
+  text-align: center;
+}
   

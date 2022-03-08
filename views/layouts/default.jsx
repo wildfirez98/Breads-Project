@@ -13,7 +13,9 @@ function Default(html) {
     <body>
       <div className="wrapper">
         <header>
+          <div className="defaultHeader">
           <h1><a href="/breads">BreadCRUD</a></h1>
+          </div>
         </header>
         <div className="container">
           {html.children}
