@@ -25,9 +25,13 @@ app.get('/', (req, res) => {
     res.send('<h1>Welcome to an Awesome App about Breads<h1/>')
 })
   
-// Breads endpoint
+// breads
 const breadsController = require('./controllers/breads_controller.js')
 app.use('/breads', breadsController)
+
+// bakers 
+const bakersController = require('./controllers/bakers_controller.js')
+app.use('/bakers', bakersController)
 
 // 404 Endpoint
 app.get('*', (req, res) => {
