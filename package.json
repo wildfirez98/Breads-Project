@@ -1,6 +1,9 @@
 {
   "name": "breads-project",
   "version": "1.0.0",
+  "engines": {
+    "node": "17.7.1"
+  },
   "description": "My first full stack API",
   "main": "server.js",
   "scripts": {
